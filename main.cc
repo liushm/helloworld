@@ -2,7 +2,12 @@
 #include <iostream>
 
 int main(int argc, char *argv[]) {
-    std::cout << "Hello, world!!" << std::endl;
+    auto message = "Hello, world!!";
+    auto func = [message]() {
+        std::cout << message << std::endl;
+    };
+
+    func();
 
     return 0;
 }
