@@ -6,11 +6,8 @@ This is a 'Hello world' program written in c++!
 
 It's cool, isn't it?
 
-## Lambda
-
 ```plain
-var func = [](){};
+Hello world!
 ```
 
-What interesting three brackets!
 
